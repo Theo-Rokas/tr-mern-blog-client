@@ -20,7 +20,7 @@ export default function SinglePost() {
 
     const [post, setPost] = useState({})
 
-    const PF = "http://localhost:5000/images/"
+    const PF = "https://tr-mern-blog-server.herokuapp.com/images/"
 
     const { user } = useContext(Context)
 
