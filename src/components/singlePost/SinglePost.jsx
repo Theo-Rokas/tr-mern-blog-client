@@ -20,7 +20,6 @@ export default function SinglePost() {
 
     const [post, setPost] = useState({})
 
-    const HS = "https://tr-mern-blog-server.herokuapp.com"
     const PF = "http://localhost:5000/images/"
 
     const { user } = useContext(Context)
@@ -31,7 +30,7 @@ export default function SinglePost() {
 
     useEffect(() => {
         const getPost = async () => {
-            const res = await axios.get(HS + "/posts/" + path)
+            const res = await axios.get("/posts/" + path)
             
             setPost(res.data)
             setTitle(res.data.title)
