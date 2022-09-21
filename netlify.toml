@@ -1,6 +1,11 @@
 [[redirects]]
+  from = "/post/*"
+  to = "https://tr-mern-blog-server.herokuapp.com/api/post/*"
+  status = 200
+
+[[redirects]]
   from = "/posts/*"
-  to = "https://tr-mern-blog-server.herokuapp.com/api/posts"
+  to = "https://tr-mern-blog-server.herokuapp.com/api/posts/*"
   status = 200
 
 [[redirects]]
