@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/posts"
+  to = "https://tr-mern-blog-server.herokuapp.com/api/posts"
+  status = 200
+
+[[redirects]]
+  from = "/auth/login"
+  to = "https://tr-mern-blog-server.herokuapp.com/api/auth/login"
+  status = 200
+
+[[redirects]]
+  from = "/auth/register"
+  to = "https://tr-mern-blog-server.herokuapp.com/api/auth/register"
+  status = 200
