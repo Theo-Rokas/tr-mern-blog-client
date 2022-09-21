@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/posts"
+  from = "/posts/*"
   to = "https://tr-mern-blog-server.herokuapp.com/api/posts"
   status = 200
 
@@ -11,4 +11,14 @@
 [[redirects]]
   from = "/auth/register"
   to = "https://tr-mern-blog-server.herokuapp.com/api/auth/register"
+  status = 200
+
+[[redirects]]
+  from = "/upload"
+  to = "https://tr-mern-blog-server.herokuapp.com/api/upload"
+  status = 200
+
+[[redirects]]
+  from = "/users/*"
+  to = "https://tr-mern-blog-server.herokuapp.com/api/users"
   status = 200
