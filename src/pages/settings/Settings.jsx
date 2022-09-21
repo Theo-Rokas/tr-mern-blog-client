@@ -17,7 +17,7 @@ export default function Settings() {
 
     const { user, dispatch } = useContext(Context)
 
-    const PF = "http://localhost:5000/images/"
+    const PF = "https://tr-mern-blog-server.herokuapp.com/images/"
 
     const handleSubmit = async (e) => {
         e.preventDefault()
