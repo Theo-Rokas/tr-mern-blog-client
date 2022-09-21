@@ -1,4 +1,0 @@
-[[redirects]]
-  from = "/posts"
-  to = "https://tr-mern-blog-server.herokuapp.com/api/posts"
-  status = 200
