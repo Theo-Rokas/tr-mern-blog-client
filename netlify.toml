@@ -20,5 +20,5 @@
 
 [[redirects]]
   from = "/users/*"
-  to = "https://tr-mern-blog-server.herokuapp.com/api/users"
+  to = "https://tr-mern-blog-server.herokuapp.com/api/users/*"
   status = 200
