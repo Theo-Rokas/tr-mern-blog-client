@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/post/*"
-  to = "https://tr-mern-blog-server.herokuapp.com/api/post/*"
+  from = "/post/"
+  to = "https://tr-mern-blog-server.herokuapp.com/api/post/"
   status = 200
 
 [[redirects]]
@@ -9,8 +9,8 @@
   status = 200
 
 [[redirects]]
-  from = "/posts/*"
-  to = "https://tr-mern-blog-server.herokuapp.com/api/posts/*"
+  from = "/posts/"
+  to = "https://tr-mern-blog-server.herokuapp.com/api/posts/"
   status = 200
 
 [[redirects]]
@@ -29,6 +29,6 @@
   status = 200
 
 [[redirects]]
-  from = "/users/*"
-  to = "https://tr-mern-blog-server.herokuapp.com/api/users/*"
+  from = "/users/"
+  to = "https://tr-mern-blog-server.herokuapp.com/api/users/"
   status = 200
