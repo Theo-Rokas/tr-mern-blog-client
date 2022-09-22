@@ -30,7 +30,7 @@ function App() {
           <Route path="/login" element={user? <Home /> : <Login />} />
           <Route path="/write" element={user? <Write /> : <Register />} />
           <Route path="/settings" element={user? <Settings /> : <Register />} />
-          <Route path="/post/:postId" element={<Single />} />
+          <Route path="/posts/:postId" element={<Single />} />
         </Routes>
       </>      
     </Router>
