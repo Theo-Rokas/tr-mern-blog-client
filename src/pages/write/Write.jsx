@@ -1,5 +1,7 @@
 import { useContext, useState } from "react"
 
+import { useNavigate } from "react-router-dom"
+
 import { Context } from "../../context/Context"
 
 import axios from "axios"
@@ -10,6 +12,8 @@ export default function Write() {
     const [title, setTitle] = useState("")
     const [desc, setDesc] = useState("")
     const [file, setFile] = useState(null)
+
+    const navigate = useNavigate()
 
     const { user } = useContext(Context)
 
@@ -39,7 +43,7 @@ export default function Write() {
 
         try {
             const res = await axios.post("/posts", newPost)
-            window.location.replace("/posts/" + res.data._id)
+            navigate("/posts/" + res.data._id)
         }
         catch(err) {}        
     }
