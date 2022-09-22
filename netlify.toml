@@ -1,11 +1,11 @@
 [[redirects]]
-  from = "/post/*"
-  to = "https://tr-mern-blog-server.herokuapp.com/api/post/:splat"
+  from = "/posts"
+  to = "https://tr-mern-blog-server.herokuapp.com/api/posts"
   status = 200
 
 [[redirects]]
-  from = "/posts"
-  to = "https://tr-mern-blog-server.herokuapp.com/api/posts"
+  from = "/posts/*"
+  to = "https://tr-mern-blog-server.herokuapp.com/api/posts/:splat"
   status = 200
 
 [[redirects]]
