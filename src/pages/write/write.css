@@ -1,21 +1,22 @@
 .write {
+  display: flex;
+}
+
+.writeWrapper {
   padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .writeImg {
-  margin-left: 150px;
   width: 70vw;
   height: 250px;
   border-radius: 10px;
   object-fit: cover;
 }
 
-.writeForm {
-  position: relative;
-}
-
 .writeFormGroup {
-  margin-left: 150px;
   display: flex;
   align-items: center;
 }
@@ -23,6 +24,7 @@
 .writeIcon {
   width: 25px;
   height: 25px;
+  margin: 10px;
   border-radius: 50%;
   border: 1px solid;
   display: flex;
@@ -46,18 +48,22 @@
 
 .writeText {
   font-size: 20px;
-  height: 100vh;
+  height: 20vh;
 }
 
 .writeSubmit {
-  position: absolute;
-  top: 20px;
-  right: 50px;
   color: white;
   background-color: teal;
+  margin: 10px;
   padding: 10px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .write {
+    flex-direction: column;
+  }
 }
