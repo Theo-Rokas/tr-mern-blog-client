@@ -3,8 +3,6 @@
   to = "https://tr-mern-blog-server.herokuapp.com/api/posts/:splat"
   status = 200
 
-
-
 [[redirects]]
   from = "/auth/login"
   to = "https://tr-mern-blog-server.herokuapp.com/api/auth/login"
